@@ -47,6 +47,7 @@ body{
 .dic--top-container{
     position: fixed;
     display: flex;
+    z-index: 10;
 }
 
 .top--ordenar-alfa{
