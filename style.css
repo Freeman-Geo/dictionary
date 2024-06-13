@@ -1,0 +1,91 @@
+*::selection{
+    background-color: orangered;
+    color: darkblue;
+}
+
+body{
+    margin: 3vh 3vw;
+    background-color: black;
+}
+
+.dic--title{
+    margin-left: 39vw;
+    color: crimson;
+
+}
+
+.dic--container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 5vh;
+}
+
+.dic--sub-container{
+    margin: 2vw;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+}
+
+.dic--word{
+    color: aquamarine;
+    margin: .5vw;
+    border-bottom: 1px solid rgba(390, 0, 00, 0.600);
+    padding-bottom: 1vh;
+}
+
+.dic--mean{
+    color: aqua;
+    margin: 1vw;
+}
+
+.hidden{
+    display: none;
+}
+
+.dic--top-container{
+    position: fixed;
+    display: flex;
+}
+
+.top--ordenar-alfa{
+    position: absolute;
+    left: 6vw;
+    width: 25vw;
+    font-size: 1.8vw;
+    padding: .5vh .5vw;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.top--buscar-letra{
+    position: absolute;
+    margin-left: 60vw;
+    display: flex;
+    gap: 2vw;
+}
+
+.top--bl{
+    font-size: 1.8vw;
+    width: 13vw;
+    padding: .5vh .5vw;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.top--bl-input{
+    width: 6vw;
+}
+
+.top--bl-btn{
+    width: 20vw;
+    cursor: pointer;
+}
