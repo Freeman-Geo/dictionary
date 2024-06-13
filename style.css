@@ -15,9 +15,10 @@ body{
 }
 
 .dic--container{
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    margin-top: 5vh;
+    top: 25vh;
 }
 
 .dic--sub-container{
@@ -55,7 +56,7 @@ body{
     font-size: 1.8vw;
     padding: .5vh .5vw;
     font-weight: 600;
-    background-color: transparent;
+    background-color: black;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
@@ -74,7 +75,7 @@ body{
     width: 13vw;
     padding: .5vh .5vw;
     font-weight: 600;
-    background-color: transparent;
+    background-color: black;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
