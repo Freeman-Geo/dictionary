@@ -17,7 +17,7 @@ body{
 .dic--container{
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     top: 25vh;
 }
 
@@ -54,7 +54,7 @@ body{
     position: absolute;
     left: 6vw;
     width: 25vw;
-    font-size: 1.8vw;
+    font-size: 2vw;
     padding: .5vh .5vw;
     font-weight: 600;
     background-color: black;
@@ -72,7 +72,7 @@ body{
 }
 
 .top--bl{
-    font-size: 1.8vw;
+    font-size: 2vw;
     width: 13vw;
     padding: .5vh .5vw;
     font-weight: 600;
